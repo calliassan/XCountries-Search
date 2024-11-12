@@ -1,0 +1,29 @@
+.countriesgrid {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+.countryCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 150px;
+  flex-direction: column;
+  border: solid black 2px;
+}
+.imagecard {
+  height: 100px;
+  width: 100px;
+}
+p {
+  font-size: 14px;
+  text-align: center;
+}
+input {
+  width: 50vw;
+  height: 20px;
+  margin: 10px;
+}
